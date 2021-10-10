@@ -1,7 +1,7 @@
 version: '3'
 
 services: 
-  hugo_app:
+  wazatoki_blog_app:
     container_name: "wazatoki_blog_app"
     build: 
       dockerfile: "Dockerfile"
