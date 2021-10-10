@@ -1,0 +1,17 @@
+version: '3'
+
+services: 
+  hugo_app:
+    container_name: "hugo_app"
+    build: 
+      dockerfile: "Dockerfile"
+      context: "./build"
+      args: 
+        - "GO_VERSION=1.15.8"
+        - "HUGO_VERSION=0.84.3"
+    ports: 
+      - "8080:8080"
+    volumes: 
+      - "./share:/mnt/share"
+    working_dir: /workspace
+    tty: true

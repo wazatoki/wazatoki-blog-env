@@ -1,0 +1,1 @@
+# wazatoki-blog-env
