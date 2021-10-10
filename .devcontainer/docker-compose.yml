@@ -10,7 +10,7 @@ services:
         - "GO_VERSION=1.15.8"
         - "HUGO_VERSION=0.84.3"
     ports: 
-      - "8080:8080"
+      - "1313:1313"
     volumes: 
       - "./share:/mnt/share"
     working_dir: /workspace
