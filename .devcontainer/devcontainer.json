@@ -3,7 +3,7 @@
 {
 	"name": "Ubuntu",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "hugo_app",
+	"service": "wazatoki_blog_app",
 	"workspaceFolder": "/workspace",
 	"shutdownAction": "stopCompose",
 	
